@@ -51,13 +51,6 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #ffffff;
-  background: -moz-radial-gradient(center, circle cover, #ffffff 0%, #00B8FF 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #00B8FF), color-stop(100%, #ffffff));
-  background: -webkit-radial-gradient(center, circle cover, #ffffff 0%, #00B8FF 100%);
-  background: -o-radial-gradient(center, circle cover, #ffffff 0%, #00B8FF 100%);
-  background: -ms-radial-gradient(center, circle cover, #ffffff 0%, #00B8FF 100%);
-  background: radial-gradient(center, circle cover, #ffffff 0%, #00B8FF 100%);
   background-color: white; }
 
 .reveal {
@@ -92,6 +85,51 @@ body {
 .reveal h1 {
   text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); 
   font-size: 3em;
+}
+
+.reveal > header.universal {
+  font-family: "Quicksand", sans-serif;
+  line-height: 0.9em;
+  letter-spacing: -0.08em;
+   background-color: #3B5A24;
+   color: white;
+   position: absolute;
+   width: 100%;
+   top: 0px;
+   min-height: 30px;
+   text-align: center;
+   padding: 6px;
+   padding-bottom: 12px;
+}
+
+.reveal > footer.universal {
+  background: -moz-linear-gradient(top, white, #3B5A24 100%);
+  background: -webkit-linear-gradient(top, white, #3B5A24 100%);
+  background: -o-linear-gradient(top, white, #3B5A24 100%);
+  background: linear-gradient(top, white, #3B5A24 100%);
+  color: white; 
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  min-height: 50px;
+}
+
+.reveal > footer.universal > div > img {
+  margin-bottom: 22px;
+  padding-right: 10%;
+  padding-left: 10%;
+  max-width:45%;
+  max-height: 80px;
+}
+
+.reveal > footer.universal > footer {
+   border-top: 1px solid white;
+   background-color: #3B5A24;
+   padding: 6px;
+   position: absolute;
+   bottom: 0px;
+   width: 100%;
 }
 
 /*********************************************
