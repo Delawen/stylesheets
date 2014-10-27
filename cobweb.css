@@ -132,6 +132,13 @@ body {
    width: 100%;
 }
 
+.reveal > footer.universal > div > img.cobweb {
+    content:url(images/cobweb.png);
+}
+.reveal > footer.universal > div > img.eu {
+    content:url(images/eu.png);
+}
+
 /*********************************************
  * LINKS
  *********************************************/
