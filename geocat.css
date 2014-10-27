@@ -116,6 +116,60 @@ body {
   font-size: 110%;
 }
 
+.reveal > header.universal {
+  font-family: "Quicksand", sans-serif;
+  line-height: 0.9em;
+  letter-spacing: -0.08em;
+   background-color: #3B5A24;
+   color: white;
+   position: absolute;
+   width: 100%;
+   top: 0px;
+   min-height: 30px;
+   text-align: center;
+   padding: 6px;
+   padding-bottom: 12px;
+}
+
+.reveal > footer.universal {
+  background: -moz-linear-gradient(top, white, #3B5A24 100%);
+  background: -webkit-linear-gradient(top, white, #3B5A24 100%);
+  background: -o-linear-gradient(top, white, #3B5A24 100%);
+  background: linear-gradient(top, white, #3B5A24 100%);
+  color: white; 
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  min-height: 50px;
+}
+
+.reveal > footer.universal > div > img {
+  margin-bottom: 22px;
+  padding-right: 10%;
+  padding-left: 10%;
+  max-width:45%;
+  max-height: 80px;
+}
+
+.reveal > footer.universal > footer {
+   border-top: 1px solid white;
+   background-color: #3B5A24;
+   padding: 6px;
+   position: absolute;
+   bottom: 0px;
+   width: 100%;
+}
+
+
+img.geocat {
+    content:url(images/GeoCat.png);
+}
+
+img.lotsofcats {
+    content:url(images/lotsofcats.png);
+}
+
 /*********************************************
  * LINKS
  *********************************************/
