@@ -7,7 +7,6 @@
   font-weight: 400;
   src: local('Quicksand Regular'), local('Quicksand-Regular'), url(fonts/sKd0EMYPAh5PYCRKSryvWz8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
 }
-
 @font-face {
   font-family: 'Quicksand';
   font-style: normal;
@@ -39,7 +38,6 @@
   font-weight: 700;
   src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(fonts/PRmiXeptR36kaC0GEAetxjqR_3kx9_hJXbbyU8S6IN0.woff) format('woff');
 }
-
 
 /**
  * Sky theme for reveal.js.
@@ -108,11 +106,11 @@ body {
 
 .reveal h2 {
   font-family: 'Cabin Sketch';
-  color: #FF6E00;
+  color: rgb(10, 10, 111);
 }
 
 .reveal p, .reveal div, .reveal li {
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Open Sans', cursive;
   font-size: 110%;
 }
 
@@ -170,6 +168,10 @@ img.geocat {
 
 img.lotsofcats {
     content:url(images/lotsofcats.png);
+}
+
+img.geonetwork {
+    content:url(images/geonetwork-logo.png);
 }
 
 /*********************************************
