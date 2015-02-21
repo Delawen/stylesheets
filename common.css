@@ -184,7 +184,7 @@
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background: #3b759e;
+  background: white;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -ms-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
@@ -202,4 +202,8 @@
 
 .reveal .olMap div {
    font-size: 60%;
+}
+
+.reveal > footer.universal > div > img {
+   max-width: 30%;
 }

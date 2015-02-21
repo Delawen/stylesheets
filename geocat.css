@@ -1,6 +1,7 @@
 
 .reveal h1 {
   font-family: 'QuickSand';
+  font-size: 200%;
 }
 
 .reveal h2 {
@@ -15,30 +16,23 @@
   font-family: "Quicksand", sans-serif;
   line-height: 0.9em;
   letter-spacing: -0.08em;
-   background-color: #3B5A24;
-   color: white;
+   color: #111;
    position: absolute;
    width: 100%;
    top: 0px;
+   font-size: 14px;
    min-height: 30px;
    text-align: center;
    padding: 6px;
    padding-bottom: 12px;
-   display: none;
 }
 
 .reveal > footer.universal {
-  background: -moz-linear-gradient(top, white, #3B5A24 100%);
-  background: -webkit-linear-gradient(top, white, #3B5A24 100%);
-  background: -o-linear-gradient(top, white, #3B5A24 100%);
-  background: linear-gradient(top, white, #3B5A24 100%);
   color: white; 
   position: absolute;
   bottom: 0px;
   width: 100%;
-  text-align: center;
   min-height: 50px;
-  display: none;
 }
 
 .reveal > footer.universal > div > img {
@@ -68,7 +62,7 @@ body {
   background: radial-gradient(center, circle cover, #ffffff 0%, #00B8FF 100%);
   background-color: white; }
 
-img.geocat {
+img.geocat  {
     content:url(images/GeoCat.png);
 }
 

@@ -32,9 +32,8 @@ body {
 
 .reveal > footer.universal > div > img {
   margin-bottom: 22px;
-  padding-right: 10%;
-  padding-left: 10%;
-  max-width:45%;
+  padding-right: 1%;
+  padding-left: 1%;
   max-height: 80px;
 }
 
