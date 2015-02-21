@@ -207,3 +207,19 @@
 .reveal > footer.universal > div > img {
    max-width: 30%;
 }
+
+li.disabled {
+   color: #aaa;
+}
+
+ul.index li {
+   text-align: left;
+   padding-bottom: 36px;
+}
+
+ul.index {
+   margin-top: 10%;
+   margin-bottom: 33px;
+   list-style-type: decimal;
+   margin-left: 10%;
+}
