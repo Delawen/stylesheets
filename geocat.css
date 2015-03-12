@@ -5,7 +5,12 @@
 }
 
 .reveal h2 {
+  font-size: 130%;
   color: rgb(10, 10, 111);
+}
+
+.reveal h3 {
+  font-size: 110%;
 }
 
 .reveal p, .reveal div, .reveal li {
