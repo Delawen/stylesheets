@@ -146,6 +146,11 @@
   border-color: #3b759e;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
+.reveal section img.clean {
+  background: none;
+  box-shadow: none;
+}
+
 /*********************************************
  * NAVIGATION CONTROLS
  *********************************************/
