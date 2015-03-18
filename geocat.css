@@ -41,11 +41,10 @@
 }
 
 .reveal > footer.universal > div > img {
-  margin-bottom: 22px;
-  padding-right: 10%;
-  padding-left: 10%;
+  margin-bottom: 6px;
+  padding-left: 6px;
   max-width:45%;
-  max-height: 80px;
+  max-height: 42px;
 }
 
 .reveal > footer.universal > footer {
