@@ -228,3 +228,7 @@ ul.index {
    list-style-type: decimal;
    margin-left: 10%;
 }
+
+img.quienessomos {
+    content:url(images/quienesSomos.svg);
+}
