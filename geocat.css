@@ -1,6 +1,5 @@
 
 .reveal h1 {
-  font-family: 'QuickSand';
   font-size: 200%;
 }
 
@@ -18,7 +17,7 @@
 }
 
 .reveal > header.universal {
-  font-family: "Quicksand", sans-serif;
+  font-family: sans-serif;
   line-height: 0.9em;
   letter-spacing: -0.08em;
    color: #111;

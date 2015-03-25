@@ -1,19 +1,6 @@
 /**
  FONTS
 **/
-@font-face {
-  font-family: 'Quicksand';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Quicksand Regular'), local('Quicksand-Regular'), url(fonts/sKd0EMYPAh5PYCRKSryvWz8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
-}
-
-@font-face {
-  font-family: 'Quicksand';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Quicksand Bold'), local('Quicksand-Bold'), url(fonts/32nyIRHyCu6iqEka_hbKsnhCUOGz7vYGh680lGh-uXM.woff) format('woff');
-}
 
 @font-face {
   font-family: 'Open Sans';
@@ -85,7 +72,7 @@
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #333333;
-  font-family: "Quicksand", sans-serif;
+  font-family: sans-serif;
   line-height: 0.9em;
   letter-spacing: -0.08em;
   text-transform: inherit;
