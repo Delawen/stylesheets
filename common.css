@@ -216,6 +216,10 @@ ul.index {
    margin-left: 10%;
 }
 
+img.geocatherd {
+    content:url(images/GeoCatHerd.png);
+}
+
 img.quienessomos {
     content:url(images/quienesSomos.svg);
 }
