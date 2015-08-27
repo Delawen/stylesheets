@@ -1,60 +1,31 @@
-/**
- FONTS
-**/
-
 @font-face {
   font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url(fonts/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+  font-weight: 300;
+  src: local('Open Sans'), local('OpenSans'), url(fonts/OpenSans-Regular.ttf) format('ttf');
 }
 @font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(fonts/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+  font-family: 'Open Sans 600';
+  font-weight: 600;
+  src: local('Open Sans 600'), local('OpenSans-600'), url(fonts/OpenSans-Regular.ttf) format('ttf');
 }
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(fonts/xjAJXh38I15wypJXxuGMBobN6UDyHWBl620a-IRfuBk.woff) format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(fonts/PRmiXeptR36kaC0GEAetxjqR_3kx9_hJXbbyU8S6IN0.woff) format('woff');
-}
-
-
-/**
- * Sky theme for reveal.js.
- *
- * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
- */
 .reveal a:not(.image) {
   line-height: 1.3em; }
 
-/*********************************************
- * GLOBAL STYLES
- *********************************************/
-
-.reveal {
-  font-family: "Open Sans", sans-serif;
-  font-size: 36px;
-  font-weight: 200;
-  letter-spacing: -0.02em;
-  color: #333333; }
+.reveal section p, .reveal section, .reveal section li {
+  color: #333333; 
+  font-family: 'Open Sans 600';
+}
 
 ::selection {
   color: white;
   background: #134674;
-  text-shadow: none; }
+  text-shadow: none; 
+}
 
 
 .reveal .slides {
   height: 100%;
+  font-size: 36px;
 }
 
 .reveal .slides section.present {
@@ -72,7 +43,7 @@
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #333333;
-  font-family: sans-serif;
+  font-family: 'Open Sans';
   line-height: 0.9em;
   letter-spacing: -0.08em;
   text-transform: inherit;
@@ -81,16 +52,13 @@
 .reveal h1 {
   text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); 
   font-size: 3em;
-  font-family: 'Open Sans';
 }
 
 .reveal h2 {
-  font-family: 'Open Sans';
   color: #FF6E00;
 }
 
 .reveal p, .reveal div, .reveal li {
-  font-family: 'Open Sans', cursive;
   font-size: 110%;
 }
 

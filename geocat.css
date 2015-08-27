@@ -5,17 +5,28 @@
 
 .reveal h2 {
   font-size: 130%;
-  color: rgb(10, 10, 111);
+  color: #ff9900;
+}
+
+.reveal h4 {
+  font-size: 110%;
+  color: #ffd400;
 }
 
 .reveal h3 {
-  font-size: 110%;
+  color: #ff9900;
+}
+
+.reveal a:not(.image):hover, a:hover {
+  color: #1e1446;
+}
+
+.reveal a:not(.image), a {
+  color: #0099CC;
 }
 
 .reveal > header.universal {
-  content: url(images/GeoCat.png);
-  margin: auto;
-  max-height:42px;
+  display:none;
 }
 
 .reveal > footer.universal {
@@ -41,6 +52,12 @@
 body {
   background: #ffffff;
   background-color: #EDEEF2; 
+  background: -moz-radial-gradient(center, circle cover, #ffffff 0%, #EDEEF2 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #EDEEF2), color-stop(100%, #ffffff));
+  background: -webkit-radial-gradient(center, circle cover, #ffffff 0%, #EDEEF2 100%);
+  background: -o-radial-gradient(center, circle cover, #ffffff 0%, #EDEEF2 100%);
+  background: -ms-radial-gradient(center, circle cover, #ffffff 0%, #EDEEF2 100%);
+  background: radial-gradient(center, circle cover, #ffffff 0%, #EDEEF2 100%) 
 }
 
 
