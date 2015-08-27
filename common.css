@@ -81,16 +81,16 @@
 .reveal h1 {
   text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); 
   font-size: 3em;
-  font-family: 'Chewy';
+  font-family: 'Open Sans';
 }
 
 .reveal h2 {
-  font-family: 'Cabin Sketch';
+  font-family: 'Open Sans';
   color: #FF6E00;
 }
 
 .reveal p, .reveal div, .reveal li {
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Open Sans', cursive;
   font-size: 110%;
 }
 
@@ -222,4 +222,16 @@ img.geocatherd {
 
 img.quienessomos {
     content:url(images/quienesSomos.svg);
+}
+
+img.geocat  {
+    content:url(images/GeoCat.png);
+}
+
+img.lotsofcats {
+    content:url(images/lotsofcats.png);
+}
+
+img.geonetwork {
+    content:url(images/geonetwork-logo.png);
 }
