@@ -203,3 +203,9 @@ img.lotsofcats {
 img.geonetwork {
     content:url(images/geonetwork-logo.png);
 }
+
+img.logogn {
+    content:url(images/GeoNetwork.png);
+    max-height: 120px;
+    max-width: 120px;
+}
