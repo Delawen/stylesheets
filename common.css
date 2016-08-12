@@ -62,6 +62,10 @@
   font-size: 110%;
 }
 
+.reveal strong, strong {
+  font-weight: bold;
+}
+
 /*********************************************
  * LINKS
  *********************************************/
@@ -184,28 +188,69 @@ ul.index {
    margin-left: 10%;
 }
 
+img.cat {
+  max-height:100%;
+  max-width:100%;
+}
+
+img.title {
+  max-height: 70%;
+  max-width: 70%;
+}
+
+/** COMMON IMAGES **/
+
 img.geocatherd {
-    content:url(images/GeoCatHerd.png);
+  content:url(images/GeoCatHerd.png);
 }
 
 img.quienessomos {
-    content:url(images/quienesSomos.svg);
+  content:url(images/quienesSomos.svg);
 }
 
 img.geocat  {
-    content:url(images/GeoCat.png);
+  content:url(images/GeoCat.png);
 }
 
 img.lotsofcats {
-    content:url(images/lotsofcats.png);
+  content:url(images/lotsofcats.png);
 }
 
 img.geonetwork {
-    content:url(images/geonetwork-logo.png);
+  content:url(images/geonetwork-logo.png);
+}
+
+img.opendata {
+  content:url(images/fivestars.png);
 }
 
 img.logogn {
-    content:url(images/GeoNetwork.png);
-    max-height: 120px;
-    max-width: 120px;
+  content:url(images/GeoNetwork.png);
+  max-height: 120px;
+  max-width: 120px;
+}
+
+/**** CATS ****/
+img.cat.lawyer {
+  content:url(cats/lawyercat.jpg);
+}
+
+img.cat.search {
+  content:url(cats/catsearching.gif);
+}
+
+img.cat.roar {
+  content:url(cats/roar.gif);
+}
+
+img.cat.lion< {
+  content:url(cats/lion.gif);
+}
+
+img.cat.grumpy {
+  content:url(cats/grumpylooking.gif);
+}
+
+img.cat.science {
+  content:url(cats/science.gif);
 }
