@@ -258,3 +258,7 @@ img.cat.science {
 img.cat.workinghard {
   content:url(cats/workinghard.gif);
 }
+
+img.cat.android {
+  content:url(cats/android.png);
+}
