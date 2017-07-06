@@ -1,28 +1,30 @@
 
 .reveal h1 {
   font-size: 200%;
+  color: #251c42;
 }
 
 .reveal h2 {
-  font-size: 130%;
-  color: #ff9900;
+  font-size: 140%;
+  color: #251c42;
+}
+
+.reveal h3 {
+  font-size:125%;
+  color: #251c42;
 }
 
 .reveal h4 {
   font-size: 110%;
-  color: #3f00ff;
-}
-
-.reveal h3 {
-  color: #ff9900;
+  color: #1f98cb;
 }
 
 .reveal a:not(.image):hover, a:hover {
-  color: #1e1446;
+  color: #82779d;
 }
 
 .reveal a:not(.image), a {
-  color: #0099CC;
+  color: #18779d;
 }
 
 .reveal > header.universal {
@@ -50,7 +52,7 @@
 }
 
 body {
-  background: radial-gradient(#ffffff 0%, #e8eff1, #d6e4e8, #b0c7ce, #a0c3ce, #7db5c7, #0099CC 100%);
+  background: white;
 }
 
 
@@ -71,5 +73,5 @@ body {
 }
 
 img.geocat  {
-    content:url(images/GeoCat3.png);
+    content:url(images/GeoCat.png);
 }
