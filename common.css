@@ -190,65 +190,65 @@ img.title {
 
 /** COMMON IMAGES **/
 
-img.geocatherd {
+img.geocatherd:after {
   content:url(images/GeoCatHerd.png);
 }
 
-img.quienessomos {
-  content:url(images/quienesSomos.svg);
+img.quienessomos::after {
+  content:url('images/quienesSomos.svg');
 }
 
-img.geocat  {
+img.geocat:after  {
   content:url(images/GeoCat.png);
 }
 
-img.lotsofcats {
-  content:url(images/lotsofcats.png);
+img.lotsofcats:after {
+  content:url('images/lotsofcats.png');
 }
 
-img.geonetwork {
+img.geonetwork:after {
   content:url(images/geonetwork-logo.png);
 }
 
-img.opendata {
+img.opendata:after {
   content:url(images/fivestars.png);
 }
 
-img.logogn {
+img.logogn:after {
   content:url(images/GeoNetwork.png);
   max-height: 120px;
   max-width: 120px;
 }
 
 /**** CATS ****/
-img.cat.lawyer {
+img.cat.lawyer:after {
   content:url(cats/lawyercat.jpg);
 }
 
-img.cat.search {
+img.cat.search:after {
   content:url(cats/catsearching.gif);
 }
 
-img.cat.roar {
+img.cat.roar:after {
   content:url(cats/roar.gif);
 }
 
-img.cat.lion< {
+img.cat.lion:after {
   content:url(cats/lion.gif);
 }
 
-img.cat.grumpy {
+img.cat.grumpy:after {
   content:url(cats/grumpylooking.gif);
 }
 
-img.cat.science {
+img.cat.science:after {
   content:url(cats/science.gif);
 }
 
-img.cat.workinghard {
+img.cat.workinghard:after {
   content:url(cats/workinghard.gif);
 }
 
-img.cat.android {
+img.cat.android:after {
   content:url(cats/android.png);
 }

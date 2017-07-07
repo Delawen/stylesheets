@@ -72,6 +72,6 @@ body {
   border-bottom-color:#0099CC;
 }
 
-img.geocat  {
+img.geocat:after  {
     content:url(images/GeoCat.png);
 }
