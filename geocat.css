@@ -71,7 +71,3 @@ body {
 .reveal .controls div.navigate-up.enabled {
   border-bottom-color:#0099CC;
 }
-
-img.geocat:after  {
-    content:url(images/GeoCat.png);
-}
