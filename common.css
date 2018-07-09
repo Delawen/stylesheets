@@ -8,6 +8,11 @@
   font-weight: 600;
   src: local('Open Sans 600'), local('OpenSans-600'), url(fonts/OpenSans-Regular.ttf) format('ttf');
 }
+@font-face {
+  font-family: Impact;
+  font-stretch: expanded;
+  src: Impact, url(fonts/impact.ttf) format('ttf');
+}
 .reveal a:not(.image) {
   line-height: 1.3em; }
 
@@ -45,17 +50,18 @@
   color: #333333;
   font-family: 'Open Sans';
   line-height: 0.9em;
-  letter-spacing: -0.08em;
   text-transform: inherit;
   text-shadow: none; }
 
 .reveal h1 {
   text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); 
   font-size: 3em;
+  font-family: Impact;
 }
 
 .reveal h2 {
   color: #FF6E00;
+  font-family: Impact;
 }
 
 .reveal p, .reveal div, .reveal li {
