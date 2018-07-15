@@ -1,22 +1,25 @@
-
 .reveal h1 {
-  font-size: 200%;
   color: #251c42;
 }
 
 .reveal h2 {
-  font-size: 140%;
   color: #251c42;
 }
 
 .reveal h3 {
-  font-size:125%;
   color: #251c42;
 }
 
 .reveal h4 {
-  font-size: 110%;
   color: #1f98cb;
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h4, .reveal {
+  font-family: Impact,OpenSans,Helvetica,Arial,Lucida,sans-serif
+}
+
+.reveal h3, .reveal h4, .reveal h4, .reveal {
+  font-family: Impact,OpenSans,Helvetica,Arial,Lucida,sans-serif
 }
 
 .reveal a:not(.image):hover, a:hover {
