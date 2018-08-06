@@ -45,22 +45,21 @@ body {
   font-family: 'Miriam Libre';
   color: #4CB05B;
   text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+  padding-bottom: 1%;
 }
 
 .reveal h1 {
   font-weight:bold;
-  font-size: 180%;
-  padding-bottom: 1%;
+  font-size: 200%;
 }
 
 .reveal h2 {
   font-weight:bold;
-  font-size: 160%;
-  padding-bottom: 1%;
+  font-size: 180%;
 }
 
 .reveal h3 {
-  font-size: 140%;
+  font-size: 150%;
 }
 
 .reveal h4 {
@@ -79,14 +78,19 @@ body {
   font-weight:bold;
 }
 
-.reveal quote {
+.reveal section quote {
+  padding:12%;
+  border-radius:20px;
+  background-color:#00393F70;
   font-size:180%;
   font-family: 'Miriam Libre';
   color: #4CB05B;
   font-weight:bold;
-  padding:12%;
-  border-radius:6px;
-  background-color:#00393F70;
+  height: 80%;
+  width: 60%;
+  display:block;
+  margin:10%;
+  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
 
 /* OSGeo Front styling */
@@ -100,7 +104,8 @@ section.front:before {
   height:100vh;
   width:100vw;
   background-image: url(osgeo-front.svg);
-  background-size: contain;
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
   z-index:-1;
 }
 
