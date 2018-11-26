@@ -1,76 +1,122 @@
-.reveal h1 {
-  color: #251c42;
-}
-
-.reveal h2 {
-  color: #251c42;
-}
-
-.reveal h3 {
-  color: #251c42;
-}
-
-.reveal h4 {
-  color: #1f98cb;
-}
-
-.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h4, .reveal {
-  font-family: Impact,OpenSans,Helvetica,Arial,Lucida,sans-serif
-}
-
-.reveal h3, .reveal h4, .reveal h4, .reveal {
-  font-family: Impact,OpenSans,Helvetica,Arial,Lucida,sans-serif
-}
-
-.reveal a:not(.image):hover, a:hover {
-  color: #82779d;
-}
-
-.reveal a:not(.image), a {
-  color: #18779d;
-}
-
-.reveal > header.universal {
-  display:none;
-}
-
-.reveal > footer.universal {
-  background-color: #0099CC; 
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  min-height: 50px;
-}
-
-.reveal > footer.universal > div > img {
-  max-width:45%;
-  max-height: 16px;
-}
-
-.reveal > footer.universal > footer {
-   border-top: 1px solid white;
-   position: absolute;
-   bottom: 0px;
-   width: 100%;
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans.woff2') format('woff2'),
+    url('fonts/OpenSans.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
-  background: white;
+  font-family: 'Open Sans';
 }
 
+/* Front Page */
+
+section {
+  height: 100%;
+  width: 100%;
+}
+
+.reveal .slides > section > section > div,
+.reveal .slides > section > section > quote {
+  padding-top: 5%;
+  background-color: #00aad6CC;
+  position: absolute;
+  height: 60vh;
+  top: 40vh !important;
+  color: white;
+  width: 100%;
+}
+
+.reveal .slides > section > section > img {
+  position: absolute;
+  height: 100vh;
+  top: 0px !important;
+  width: 100vw;
+  left: 0px;
+}
+
+.reveal .slides > section > section > quote {
+  padding: 5%;
+  left: 0px;
+}
+
+.reveal a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* H styling */
+
+.reveal h1,.reveal  h2,.reveal  h3,.reveal  h4,.reveal  h5,.reveal  h6,.reveal  h7,.reveal  h8,.reveal  h9 {
+  padding-bottom: 1%;
+}
+
+.reveal h1 {
+  font-size: 200%;
+}
+
+.reveal h2 {
+  font-size: 180%;
+}
+
+.reveal h3 {
+  font-size: 150%;
+}
+
+.reveal h4 {
+  font-size: 130%;
+}
+
+.reveal h5 {
+  font-size: 120%;
+}
+
+.reveal h6 {
+  font-size: 110%;
+}
+
+.reveal h7 {
+  font-weight:bold;
+}
+
+/* Controls */
 
 .reveal .controls {
-  bottom: 60px;
+  z-index: 6;
 }
-.reveal .controls div.navigate-right.enabled {
-  border-left-color:#0099CC;
+
+
+/* GeoCat Footer and Header */
+
+footer {
+  position:absolute;
+  bottom: 0px;
+  left: 0px;
+  padding: 10px;
+  z-index: 3;
+  background-color: white;
+  width: 100%;
+  height: 20px;
 }
-.reveal .controls div.navigate-left.enabled {
-  border-right-color:#0099CC;
+
+footer img {
+  max-width: 40%;
+  float: left;
+  max-height: 100%;
 }
-.reveal .controls div.navigate-down.enabled {
-  border-top-color:#0099CC;
+
+header {
+  position:fixed;
+  top:10px;
+  right:10px;
+  z-index:3;
+  height: 5%;
+  width:100%;
 }
-.reveal .controls div.navigate-up.enabled {
-  border-bottom-color:#0099CC;
+
+header img {
+  max-height:100%;
+  float:right;
 }
