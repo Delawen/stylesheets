@@ -20,7 +20,7 @@ section {
 .reveal .slides > section > section > div,
 .reveal .slides > section > section > quote {
   padding-top: 5%;
-  background-color: #00aad6ff;
+  background-color: #00aad6CC;
   position: absolute;
   height: 60vh;
   top: 40vh !important;
@@ -28,9 +28,23 @@ section {
   width: 100%;
 }
 
+.reveal .slides > section > section > img {
+  position: absolute;
+  height: 100vh;
+  top: 0px !important;
+  width: 100vw;
+  left: 0px;
+}
+
 .reveal .slides > section > section > quote {
   padding: 5%;
   left: 0px;
+}
+
+.reveal a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .reveal a {
