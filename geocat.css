@@ -20,13 +20,30 @@ section {
 
 .reveal .slides > section > section > div,
 .reveal .slides > section > section > quote {
-  padding-top: 5%;
+  padding-top: 5vh;
   background-color: #00aad6CC;
   position: absolute;
   height: 60vh;
-  top: 40vh !important;
+  top: 40vh;
   color: white;
   width: 100%;
+}
+
+.reveal .slides > section > section > div.content-text {
+  padding: 5vh;
+  background-color: white;
+  position: absolute;
+  height: 30vh;
+  top: 0px;
+  color: black;
+  width: 100%;
+}
+
+.reveal .slides > section > section > div.full h1,
+.reveal .slides > section > section > div.full h2,
+.reveal .slides > section > section > div.full h3,
+.reveal .slides > section > section > div.full h4 {
+  color: #00aad6CC;
 }
 
 .reveal .slides > section > section > img {
