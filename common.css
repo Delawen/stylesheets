@@ -94,23 +94,6 @@ h1, h2 {
   font-size: 140%;
 }
 
-/*********************************************
- * LINKS
- *********************************************/
-.reveal a:not(.image) {
-  color: #3b759e;
-  text-decoration: none;
-  -webkit-transition: color .15s ease;
-  -moz-transition: color .15s ease;
-  -ms-transition: color .15s ease;
-  -o-transition: color .15s ease;
-  transition: color .15s ease; }
-
-.reveal a:not(.image):hover {
-  color: #74a7cb;
-  text-shadow: none;
-  border: none; }
-
 .reveal .roll span:after {
   color: #fff;
   background: #264c66; }
