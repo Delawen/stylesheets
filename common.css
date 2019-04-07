@@ -323,3 +323,67 @@ img.cat.android, img.cat.android:after {
         box-shadow: none;
     }    
 }
+
+
+
+/*********************************************
+ * STAR WARS
+ *********************************************/
+ 
+.fade {
+  position: relative;
+  width: 100%;
+  min-height: 80vh;
+  top: -25px;
+  background-image: linear-gradient(0deg, transparent, black 75%);
+  z-index: 1000000000;
+}
+
+.present.star-wars {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  color: #feda4a;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 200%;
+  letter-spacing: 6px;
+  line-height: 150%;
+  perspective: 60vw;
+  text-align: justify;
+  overflow: hidden;
+
+}
+
+.present.star-wars .crawl {
+  position: relative;
+  top:100vh;
+  animation: crawl 30s linear;
+  width: 100vw;
+}
+
+.present.star-wars .crawl > .title {
+  font-size: 90%;
+  text-align: center;
+}
+
+.present.star-wars .crawl > .title h1 {
+  margin: 0 0 100px;
+  text-transform: uppercase;
+}
+
+.present.star-wars .crawl p {
+  color:white;
+  text-shadow: 1px 0 0 #AA007F, -1px 0 0 #AA007F, 0 1px 0 #AA007F, 0 -1px 0 #AA007F, 2px 2px #AA007F, -2px -2px 0 #AA007F, 2px -2px 0 #AA007F, -2px 2px 0 #AA007F;
+}
+
+@keyframes crawl {
+	0% {
+	  top: 0px;
+    transform: rotateX(20deg)  translateZ(0);
+  }
+	100% { 
+    top: -300vh;
+    transform: rotateX(25deg) translateZ(-400vh);
+  }
+}
