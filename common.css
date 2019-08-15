@@ -358,7 +358,7 @@ img.cat.android, img.cat.android:after {
 .present.star-wars .crawl {
   position: relative;
   top:100vh;
-  animation: crawl 30s linear;
+  animation: crawl 20s linear;
   width: 100vw;
 }
 
