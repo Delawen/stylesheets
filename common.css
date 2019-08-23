@@ -53,6 +53,11 @@ ul.index {
    margin-left: 10%;
 }
 
+
+html.difuminar .reveal .slide-background.present {
+  opacity: 0.7;
+}
+
 /*********************************************
  * HEADERS
  *********************************************/
