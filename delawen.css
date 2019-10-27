@@ -30,7 +30,7 @@ body {
 
 .reveal a {
   text-decoration:none;
-  text-shadow: 2px 0 0 #00393F, -2px 0 0 #00393F, 0 2px 0 #00393F, 0 -2px 0 #00393F, 1px 1px #fff, -1px -1px 0 #00393F, 1px -1px 0 #00393F, -1px 1px 0 #00393F;
+  text-shadow: 2px 0 0 #00090F, -2px 0 0 #00090F, 0 2px 0 #00090F, 0 -2px 0 #00090F, 1px 1px #fff, -1px -1px 0 #00090F, 1px -1px 0 #00090F, -1px 1px 0 #00090F;
   color: #AA007F;
 }
 
