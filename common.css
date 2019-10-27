@@ -58,6 +58,13 @@ html.difuminar .reveal .slide-background.present {
   opacity: 0.7;
 }
 
+.source {
+  top:1px;
+  right:0px;
+  position:absolute;
+  font-size:50%
+}
+
 /*********************************************
  * HEADERS
  *********************************************/
