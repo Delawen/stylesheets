@@ -24,14 +24,14 @@
 
 body {
   font-family: 'Sintony';
-  color: #AA007F;
+  color: #6A004F;
   font-size: 42px;
 }
 
 .reveal a {
   text-decoration:none;
-  text-shadow: 2px 0 0 #00090F, -2px 0 0 #00090F, 0 2px 0 #00090F, 0 -2px 0 #00090F, 1px 1px #fff, -1px -1px 0 #00090F, 1px -1px 0 #00090F, -1px 1px 0 #00090F;
-  color: #AA007F;
+  text-shadow: 1px 1px #848484;
+  color: #6A004F;
 }
 
 .reveal a:hover {
@@ -43,8 +43,8 @@ body {
 
 .reveal h1,.reveal  h2,.reveal  h3,.reveal  h4,.reveal  h5,.reveal  h6,.reveal  h7,.reveal  h8,.reveal  h9 {
   font-family: 'Miriam Libre';
-  color: #AA007F;
-  text-shadow: 4px 0 0 #fff, -4px 0 0 #fff, 0 4px 0 #fff, 0 -4px 0 #fff, 2px 2px #fff, -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff;
+  color: #6A004F;
+  text-shadow: 2px 2px #848484;
   padding-bottom: 1%;
 }
 
@@ -90,22 +90,27 @@ body {
   width: 75%;
   display:block;
   margin:5%;
-  text-shadow: 4px 0 0 #fff, -4px 0 0 #fff, 0 4px 0 #fff, 0 -4px 0 #fff, 2px 2px #fff, -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff;
+  text-shadow: 2px 2px 0 #333;
 }
 
 .reveal section article {
   padding:5%;
   border-radius:20px;
-  background-color:#00393F70;
+  background-color:#95FFB052;
   font-size:120%;
   font-family: 'Miriam Libre';
-  color: #AA007F;
+  color: #6A004F; 
   font-weight:bold;
   height: 75%;
   width: 75%;
   display:block;
   margin:5%;
-  text-shadow: 4px 0 0 #fff, -4px 0 0 #fff, 0 4px 0 #fff, 0 -4px 0 #fff, 2px 2px #fff, -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff;
+  text-shadow: 2px 2px 0 #333;
+}
+
+.reveal section p, .reveal section, .reveal section li {
+  color: #6A004F; 
+  font-weight: lighter;
 }
 
 /* OSGeo Front styling */
