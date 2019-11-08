@@ -336,6 +336,16 @@ img.cat.android, img.cat.android:after {
     }    
 }
 
+/*********************************************
+ * CODE
+ *********************************************/
+
+.reveal .slides section code * {
+  text-align: left;
+  font-family: OpenSans;
+  text-shadow: none;
+}
+
 
 
 /*********************************************
