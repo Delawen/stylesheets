@@ -175,3 +175,7 @@ header img {
   max-height:100%;
   float:right;
 }
+
+section article code {
+  font-size: 40%;
+}
