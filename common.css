@@ -123,6 +123,20 @@ h1, h2 {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); 
 }
 
+.reveal .photolink {
+  z-index:99999;
+  position:absolute;
+  top:1px;
+  right:1px;
+  padding:2px;
+  font-size:40%;
+  background-color:rgba(255, 255, 255, 0.5);
+}
+
+.reveal .photolink::before {
+  content: "Photo"
+}
+
 /*********************************************
  * NAVIGATION CONTROLS
  *********************************************/
