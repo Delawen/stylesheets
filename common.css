@@ -423,3 +423,19 @@ img.cat.android, img.cat.android:after {
     transform: rotateX(25deg) translateZ(-400vh);
   }
 }
+
+
+/*********************************************
+ * UTILS
+ *********************************************/
+ 
+ /* Inside a "position:relative" element, this is absolutely centered at the top */
+ /* used to place fragments one on top of the next */
+ .reveal section .present .absolute-centered {
+  top: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+ }
