@@ -23,7 +23,7 @@
 }
 
   
-body {
+body, .reveal-viewport {
   --main-background-color: black;
   --secondary-background-color:#FF000055;
   --main-decoration-color:red;
