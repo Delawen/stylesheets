@@ -42,7 +42,7 @@ body, .reveal-viewport {
   color: var(--main-decoration-color);
 }
 
-.reveal article *, .reveal article p,.reveal article h1,.reveal article h2,.reveal article h3,.reveal article h4,.reveal article h5,.reveal article h6,.reveal article h7,.reveal article h8,.reveal article h9  {
+.reveal article *:not([class*="hljs"]),.reveal article h1,.reveal article h2,.reveal article h3,.reveal article h4,.reveal article h5,.reveal article h6,.reveal article h7,.reveal article h8,.reveal article h9  {
   color: var(--main-article-color);
 }
 
@@ -181,4 +181,9 @@ header img {
 
 section article code {
   font-size: 40%;
+}
+
+/** HLJS **/
+.reveal .hljs {
+  background: #000a;
 }
