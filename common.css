@@ -440,3 +440,28 @@ img.cat.android, img.cat.android:after {
   margin-left: auto;
   margin-right: auto;
  }
+ 
+ 
+  .personas {
+    display: grid;
+    align-items: center;
+  }
+  
+  .twitter_card {
+    display: inline-grid;
+    height: 28%;
+    width: 20%;
+  }
+  
+  .twitter_card img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .twitter_card a {
+    position: absolute;
+    display:flex;
+    align-self: flex-end;
+    font-size: 16px;
+    background-color: black;
+  }
+
