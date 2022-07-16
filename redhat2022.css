@@ -1,0 +1,252 @@
+@font-face {
+  font-family: 'Red Hat Display', sans-serif;
+  src: url('fonts/RedHat/RedHatDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/redhatdisplay/v12/8vIh7wUr0m80wwYf0QCXZzYzUoTg-CSvZX4Vlf1fe6TVmgsD9F-Yo3w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/redhatdisplay/v12/8vIh7wUr0m80wwYf0QCXZzYzUoTg-CSvZX4Vlf1fe6TVmgsD-l-Y.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/redhatdisplay/v12/8vIf7wUr0m80wwYf0QCXZzYzUoTK8RZQvRd-D1NYbmyWQkEz-Eec.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/redhatdisplay/v12/8vIf7wUr0m80wwYf0QCXZzYzUoTK8RZQvRd-D1NYbmyWQk8z-A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/redhatdisplay/v12/8vIf7wUr0m80wwYf0QCXZzYzUoTK8RZQvRd-D1NYbl6WQkEz-Eec.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/redhatdisplay/v12/8vIf7wUr0m80wwYf0QCXZzYzUoTK8RZQvRd-D1NYbl6WQk8z-A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/redhatdisplay/v12/8vIf7wUr0m80wwYf0QCXZzYzUoTK8RZQvRd-D1NYbouRQkEz-Eec.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/redhatdisplay/v12/8vIf7wUr0m80wwYf0QCXZzYzUoTK8RZQvRd-D1NYbouRQk8z-A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body, .reveal-viewport {
+  --main-background-color: white;
+  --secondary-background-color:#FF0000;
+  --main-decoration-color:red;
+  --main-shadow: #8888;
+  --main-color: black;
+  font-family: 'Red Hat Display';
+  color: var(--main-color);
+  background-color: var(--main-background-color);
+}
+
+.reveal a {
+  text-decoration:none;
+  text-shadow: 1px 1px var(--main-shadow);
+  color: var(--main-decoration-color);
+}
+
+.reveal a:hover {
+  text-shadow:none;
+  color:var(--main-shadow);
+}
+
+/* H styling */
+
+.reveal h1,.reveal  h2,.reveal  h3,.reveal  h4,.reveal  h5,.reveal  h6,.reveal  h7,.reveal  h8,.reveal  h9 {
+  margin: 0px;
+  padding: 1%;
+}
+
+.reveal h1 {
+  font-weight:bold;
+  font-size: 48pt;
+}
+
+.reveal h2 {
+  font-weight:bold;
+  font-size: 28pt;
+}
+
+.reveal h3 {
+  font-size: 28pt;
+}
+
+.reveal h4 {
+  font-size: 22pt;
+}
+
+.reveal h5 {
+  font-size: 18pt;
+}
+
+.reveal h6 {
+  font-size: 16pt;
+}
+
+.reveal h7 {
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+.reveal p {
+  font-size: 14pt;
+}
+
+.reveal section article {
+  margin:0px;
+  padding: 0px;
+  padding-left: 3%;
+  padding-right: 3%;
+  background-color: white;
+  display:block;
+}
+
+.reveal section article.portada {
+  background-color:var(--secondary-background-color);
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  color: white; 
+}
+
+.reveal section article pre {
+  margin: 0px;
+}
+
+
+footer {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  z-index:99999;
+  padding:2%;
+  font-size:80%;
+  background-color: white;
+}
+
+footer::before {
+  border-left: 1px solid red;
+  content: " ";
+  padding: 2%;
+}
+
+footer .logo {
+  position:absolute;
+  right:5em;
+  bottom:0;
+  padding: 1%;
+}
+
+footer .logo span {
+  font-weight:bold;
+  line-height: 3vh;
+  vertical-align: top;
+}
+
+footer .logo img {
+  height: 3vh;
+}
+
+header {
+  color: red;
+  font-size: 10pt;
+  text-align: left;
+  padding: 1%;
+  margin-left: 4%;
+  margin-bottom: 4%;
+  top: 0;
+}
+
+header::before {
+  border-left: 1px solid red;
+  height: 500px;
+  content: " ";
+  padding: 2%;
+}
+
+.reveal section p, .reveal section, .reveal section li {
+  font-weight: lighter;
+}
+
+ul {
+  list-style: none;
+  margin-left: 1%;
+  padding-left: 1.2em;
+  text-indent: -1.2em;
+  text-align: left;
+  font-size: inherit;
+  margin-bottom: 1vh;
+}
+
+li {
+  margin-bottom: 1vh;
+}
+
+li:before {
+    content: "►";
+    display: block;
+    float: left;
+    width: 1em;
+    color: red;
+}
+
+section article code {
+  font-size: 40%;
+}
+
+/** HLJS **/
+.reveal .hljs {
+  background: #000a;
+}
