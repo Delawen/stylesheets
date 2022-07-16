@@ -171,22 +171,23 @@ footer {
   bottom: 0;
   width: 100vw;
   z-index:99999;
-  padding:2%;
-  font-size:80%;
+  padding:2vw;
+  font-size: 10pt;
   background-color: white;
 }
 
 footer::before {
   border-left: 1px solid red;
   content: " ";
-  padding: 2%;
+  padding: 2vw;
+  margin-left: 3vw;
 }
 
 footer .logo {
   position:absolute;
   right:5em;
   bottom:0;
-  padding: 1%;
+  padding: 1vw;
 }
 
 footer .logo span {
@@ -200,20 +201,23 @@ footer .logo img {
 }
 
 header {
-  color: red;
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index:99999;
+  padding: 2vw;
   font-size: 10pt;
   text-align: left;
-  padding: 1%;
-  margin-left: 4%;
-  margin-bottom: 4%;
-  top: 0;
+  margin-left: 3vw;
+  margin-bottom: 4vh;
+  color: red;
 }
 
 header::before {
   border-left: 1px solid red;
-  height: 500px;
   content: " ";
-  padding: 2%;
+  padding: 2vw;
 }
 
 .reveal section p, .reveal section, .reveal section li {
@@ -242,11 +246,11 @@ li:before {
     color: red;
 }
 
-section article code {
-  font-size: 40%;
-}
-
 /** HLJS **/
 .reveal .hljs {
   background: #000a;
+  text-align: left;
+}
+
+.reveal .hljs td span {
 }
