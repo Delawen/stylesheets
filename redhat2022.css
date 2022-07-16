@@ -87,6 +87,7 @@ body, .reveal-viewport {
   font-family: 'Red Hat Display';
   color: var(--main-color);
   background-color: var(--main-background-color);
+  font-size: 14pt;
 }
 
 .reveal a {
@@ -137,11 +138,6 @@ body, .reveal-viewport {
   font-weight: bold;
   font-size: 14pt;
 }
-
-.reveal p {
-  font-size: 14pt;
-}
-
 .reveal section article {
   margin:0px;
   padding: 0px;
