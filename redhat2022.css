@@ -248,9 +248,5 @@ li:before {
 
 /** HLJS **/
 .reveal .hljs {
-  background: #000a;
   text-align: left;
-}
-
-.reveal .hljs td span {
 }
