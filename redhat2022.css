@@ -80,8 +80,8 @@
 
 body, .reveal-viewport {
   --main-background-color: white;
-  --secondary-background-color:#FF0000;
   --main-decoration-color:red;
+  --secondary-background-color: var(--main-decoration-color);
   --main-shadow: #8888;
   --main-color: black;
   font-family: 'Red Hat Display';
@@ -173,7 +173,7 @@ footer {
 }
 
 footer::before {
-  border-left: 1px solid red;
+  border-left: 1px solid var(--main-decoration-color);
   content: " ";
   padding: 2vw;
   margin-left: 3vw;
@@ -207,11 +207,11 @@ header {
   text-align: left;
   margin-left: 3vw;
   margin-bottom: 4vh;
-  color: red;
+  color: var(--main-decoration-color);
 }
 
 header::before {
-  border-left: 1px solid red;
+  border-left: 1px solid var(--main-decoration-color);
   content: " ";
   padding: 2vw;
 }
@@ -239,7 +239,7 @@ li:before {
     display: block;
     float: left;
     width: 1em;
-    color: red;
+    color: var(--main-decoration-color);
 }
 
 /** HLJS **/
