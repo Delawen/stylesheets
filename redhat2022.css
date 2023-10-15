@@ -216,10 +216,6 @@ header::before {
   padding: 2vw;
 }
 
-.reveal section p, .reveal section, .reveal section li {
-  font-weight: lighter;
-}
-
 ul {
   list-style: none;
   margin-left: 1%;
