@@ -87,7 +87,7 @@ body, .reveal-viewport {
   font-family: 'Red Hat Display';
   color: var(--main-color);
   background-color: var(--main-background-color);
-  font-size: 14pt;
+  font-size: 18pt;
 }
 
 .reveal a {
@@ -241,4 +241,25 @@ li:before {
 /** HLJS **/
 .reveal .hljs {
   text-align: left;
+}
+
+table.comparison {
+  width:60%;
+  font-size: 300%;
+  padding: 1%;
+  background-color: rgba(255, 0, 0, 0.5);
+  margin-left:20%;
+  margin-bottom:10%
+}
+
+table.comparison tr td {
+  padding: 1%;
+}
+
+article ul.centered {
+  padding-left:30%;
+}
+
+article ul.centered ul {
+  padding-top:1%;
 }
